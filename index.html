@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta name="description" content="Wreaths in Middletown, DE, by Shannon O'Neal">
+        <meta name="subject" content="Wreaths for sale">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap" rel="stylesheet">
+
+
         <title>Wreaths By Shannon</title>
         <link rel="stylesheet" href="css/style.css">
 
@@ -11,41 +23,83 @@
     <body>
         <div id="hero">
             <div id="navbar-container">
-                <a class="nav-links" href="#navbar-container"><h4>Home</h4></a>
-                <a class="nav-links" href="#band-section"><h4>Band</h4></a>
-                <a class="nav-links" href="#tour-section"><h4>Tour</h4></a>
+                <a id="home-nav" class="nav-links"><h4>Home</h4></a>
+                <a class="nav-links" href="#about"><h4>About</h4></a>
+                <a class="nav-links" href="#gallery"><h4>Gallery</h4></a>
                 <a class="nav-links" href="#contact-section"><h4>Contact</h4></a>
             </div>
-            <div class="slideshow-image" id="slide1">
-                <div class="slideshow-content">
-                    <h3>Baltimore</h3>
-                    <p>Incredible time in an incredible city</p>
-                </div>
-            </div>
-            <div class="slideshow-image" id="slide2">
-                <div class="slideshow-content">
-                    <h3>Philadelphia</h3>
-                    <p>Met some awesome people and wonderful fans</p>
-                </div>
-            </div>
-            <div class="slideshow-image" id="slide3">
-                <div class="slideshow-content">
-                    <h3>Boston</h3>
-                    <p>The atmosphere was electrifying</p>
+            <h1 id="title">Wreaths By Shannon</h1>
+            <div class="slideshow-image" id="slide1"></div>
+            <div class="slideshow-image" id="slide2"></div>
+            <div class="slideshow-image" id="slide3"></div>
+        </div>
+
+        <div id="about">
+            <h2 id="about-title">About</h2>
+            <div class="center">
+                <div id="about-content">
+                    <h4 id="about-name">Shannon O'Neal</h4>
+                    <div id="bio">
+                        <p>
+                            My name is Shannon O'Neal and I live in New Castle County, DE.
+                            I love making themed wreaths, It's been a hobby of mine for a while!
+                            I started off making them for friends and family but now I make them for anyone who is interested.
+                            Please take a look at my gallery and find one you like!
+                        </p>
+                    </div>
+                    <img id="selfie" src="images/seflie.jpg" alt="">
                 </div>
             </div>
         </div>
 
-        
+        <div id="gallery">
+            <h2 id="gallery-title">Gallery</h2>
+            <div class="center">
+                <div id="wreaths-container">
+                    <img class="gallery-image" src="images/1.jpg" alt="">
+                    <img class="gallery-image" src="images/2.jpg" alt="">
+                    <img class="gallery-image" src="images/3.jpg" alt="">
+                    <img class="gallery-image" src="images/4.jpg" alt="">
+                    <img class="gallery-image" src="images/5.jpg" alt="">
+                    <img class="gallery-image" src="images/6.jpg" alt="">
+                    <img class="gallery-image" src="images/7.jpg" alt="">
+                    <img class="gallery-image" src="images/8.jpg" alt="">
+                    <img class="gallery-image" src="images/9.jpg" alt="">
+                    <img class="gallery-image" src="images/10.jpg" alt="">
+                    <img class="gallery-image" src="images/11.jpg" alt="">
+                    <img class="gallery-image" src="images/12.jpg" alt="">
+                    <img class="gallery-image" src="images/13.jpg" alt="">
+                    <img class="gallery-image" src="images/14.jpg" alt="">
+                    <img class="gallery-image" src="images/15.jpg" alt="">
+                    <img class="gallery-image" src="images/16.jpg" alt="">
+                    <img class="gallery-image" src="images/17.jpg" alt="">
+                    <img class="gallery-image" src="images/18.jpg" alt="">
+                    <img class="gallery-image" src="images/19.jpg" alt="">
+                    <img class="gallery-image" src="images/20.jpg" alt="">
+                    <img class="gallery-image" src="images/21.jpg" alt="">
+                    <img class="gallery-image" src="images/22.jpg" alt="">
+                    <img class="gallery-image" src="images/23.jpg" alt="">
+                    <img class="gallery-image" src="images/24.jpg" alt="">
+                    <img class="gallery-image" src="images/25.jpg" alt="">
+                    <img class="gallery-image" src="images/26.jpg" alt="">
+                    <img class="gallery-image" src="images/27.jpg" alt="">
+                    <img class="gallery-image" src="images/28.jpg" alt="">
+                    <img class="gallery-image" src="images/29.jpg" alt="">
+                    <img class="gallery-image" src="images/30.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
 
         <div id="contact-section">
-            <h2>Contact</h2>
-            <i>Want to know more? Let us know!</i>
+            <h2 id="contact-title">Contact</h2>
+            <i>Please contact me if interested</i>
             <div id="contact-content">
                 <ul id="contact-info">
-                    <li>Philadelphia, PA</li>
-                    <li><span>Phone:</span> 111-111-1111</li>
-                    <li><span>Email:</span> theband@theband.com</li>
+                    <li><span id="location">Location:</span> New Castle County, DE</li>
+                    <li id="email"><span>Email:</span> <a href = "mailto: wreathsbyshannon5@gmail.com">wreathsbyshannon5@gmail.com</a></li>
+                    <li id="phone"><span>Phone:</span> <a href="tel:302-111-1111">111-111-1111</a></li>
                 </ul>
                 <form id="contact-form">
                     <input type="text" id="contact-name" name="name" placeholder="Name">
@@ -57,7 +111,6 @@
                 </form>
             </div>
         </div>
-        <div id="bottom-image"></div>
         <footer>
             <p>Created by Elijah Wines</p>
         </footer>

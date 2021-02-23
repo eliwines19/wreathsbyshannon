@@ -18,4 +18,12 @@ $(function(){
         }
     }
 
+    $("#home-nav").click(function(){
+        $(window).scrollTop(-20);
+    })
+
+    $(".gallery-image").click(function(){
+        
+    })
+
 })

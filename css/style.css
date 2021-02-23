@@ -1,6 +1,19 @@
 /* general styling */
+html {
+    scroll-behavior: smooth;
+    font-family: 'Allura', cursive;
+}
+
 body {
     margin: 0;
+    background-color: #F5F9E9;
+}
+
+.center {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* end general styling */
 
@@ -8,8 +21,11 @@ body {
 #navbar-container {
     display: flex;
     justify-content: stretch;
-    background-color: rgb(0,0,0);
+    background-color: #B88C9E;
     transition: 0.5s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #navbar-container a {
@@ -18,27 +34,41 @@ body {
 }
 
 #navbar-container h4 {
+    font-size: 2rem;
     padding: 0;
     margin: 0;
 }
 
 #navbar-container a:hover {
-    background-color: rgb(128, 128, 128);
+    background-color: #5998C5;
     cursor: pointer;
-    border-right: 1px solid white;
+    border-right: 1px solid #F5F9E9;
 }
 
 .nav-links {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #F5F9E9;
 }
 /* end navbar section */
+
+/* title  */
+#title {
+    margin-bottom: 0;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+/* end title  */
 
 /* slideshow section */
 .slideshow-image {
     text-align: center;
-    height: 500pt;
-    background-size: cover;
+    background-color: #F5F9E9;
+    height: 40rem;
+    /* width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40rem;
 }
 
 .slideshow-image h3 {
@@ -58,28 +88,93 @@ body {
 }
 
 #slide1 {
-    background-image: url("../images/concert1.jpg");
+    background-image: url("../images/header1.jpg");
     display: block;
 }
 
 #slide2 {
-    background-image: url("../images/concert2.jpg");
+    background-image: url("../images/header2.jpg");
     display: none;
 }
 
 #slide3 {
-    background-image: url("../images/concert3.jpg");
+    background-image: url("../images/header3.jpg");
     display: none;
 }
 /* end slideshow section */
 
+/* start about section  */
+#about {
+    margin: 0 15rem;
+}
+
+#about-name {
+    text-align: left;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#bio {
+    font-family: 'IM Fell Double Pica', serif;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#selfie {
+    height: 40rem;
+}
+
+#about-title {
+    text-align: center;
+    color: #B88C9E;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+/* end about section  */
+
+/* start gallery section */
+#gallery {
+    text-align: center;
+}
+
+#gallery-title {
+    color: #B88C9E;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+#wreaths-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#wreaths-container img {
+    object-fit: cover;
+    width: 25rem;
+    height: 25rem;
+    padding: 1rem;
+}
+/* end gallery section  */
+
 /* contact section */
 #contact-section {
+    font-size: 1.5rem;
     padding: 50pt 0;
     text-align: center;
 }
 
+#contact-section i {
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+#contact-title {
+    color: #B88C9E;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
 #contact-content {
+    font-family: 'IM Fell Double Pica', serif;
     margin: 20pt 200pt;
     display: flex;
     justify-content: space-evenly;
@@ -92,6 +187,11 @@ body {
     margin: 0;
 }
 
+#contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #contact-info li {
     padding: 5pt 0;
 }
@@ -99,6 +199,12 @@ body {
 #contact-info span {
     font-weight: bold;
     font-style: italic;
+}
+
+#phone:hover, #email:hover {
+    color: #B88C9E;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #contact-form {
@@ -129,21 +235,13 @@ body {
 }
 /* end contact section */
 
-/* bottom image */
-#bottom-image {
-    background: url("../images/stage.jpg");
-    background-size: cover;
-    height: 500pt;
-    width: auto;
-}
-/* end bottom image */
-
 /* footer */
 footer {
     padding: 20pt 0;
 }
 
 footer p {
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
 }
