@@ -249,7 +249,7 @@ footer p {
 
 /* phone css  */
 
-@media only screen {
+@media only screen and (max-width: 800px){
     #about-name {
         text-align: center;
     }
