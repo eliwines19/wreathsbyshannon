@@ -22,8 +22,4 @@ $(function(){
         $(window).scrollTop(-20);
     })
 
-    $(".gallery-image").click(function(){
-        
-    })
-
 })

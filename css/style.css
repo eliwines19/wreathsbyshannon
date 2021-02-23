@@ -174,8 +174,10 @@ body {
 }
 
 #contact-content {
+    background-color: #B88C9E;
     font-family: 'IM Fell Double Pica', serif;
     margin: 20pt 200pt;
+    padding: 2rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -201,36 +203,9 @@ body {
     font-style: italic;
 }
 
-#phone:hover, #email:hover {
-    color: #B88C9E;
+#phone a:hover, #email a:hover, #facebook a:hover {
+    color: #F5F9E9;
     font-weight: bold;
-    cursor: pointer;
-}
-
-#contact-form {
-    text-align: left;
-    border-radius: 0;
-}
-
-#contact-form input {
-    border: solid 1pt rgb(128, 128, 128);
-    padding: 10pt;
-    margin-bottom: 5pt;
-}
-
-#contact-message {
-    width: 100%;
-}
-
-#contact-submit {
-    padding: 10pt;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border: none;
-}
-
-#contact-submit:hover {
-    background-color: rgb(128, 128, 128);
     cursor: pointer;
 }
 /* end contact section */
@@ -241,7 +216,7 @@ footer {
 }
 
 footer p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
 }
