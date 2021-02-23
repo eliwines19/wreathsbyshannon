@@ -17,6 +17,9 @@ body {
 }
 /* end general styling */
 
+
+
+
 /* navbar section\ */
 #navbar-container {
     display: flex;
@@ -51,14 +54,20 @@ body {
 }
 /* end navbar section */
 
+
+
+
 /* title  */
 #title {
     margin-bottom: 0;
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
     margin-top: 5rem;
 }
 /* end title  */
+
+
+
 
 /* slideshow section */
 .slideshow-image {
@@ -103,6 +112,9 @@ body {
 }
 /* end slideshow section */
 
+
+
+
 /* start about section  */
 #about {
     margin: 0 15rem;
@@ -132,6 +144,9 @@ body {
 }
 /* end about section  */
 
+
+
+
 /* start gallery section */
 #gallery {
     text-align: center;
@@ -156,6 +171,9 @@ body {
 }
 /* end gallery section  */
 
+
+
+
 /* contact section */
 #contact-section {
     font-size: 1.5rem;
@@ -174,8 +192,9 @@ body {
 }
 
 #contact-content {
-    background-color: #B88C9E;
     font-family: 'IM Fell Double Pica', serif;
+    background-color: #B88C9E;
+    border: solid 1pt rgb(0, 0, 0);
     margin: 20pt 200pt;
     padding: 2rem;
     display: flex;
@@ -210,6 +229,9 @@ body {
 }
 /* end contact section */
 
+
+
+
 /* footer */
 footer {
     padding: 20pt 0;
@@ -221,3 +243,31 @@ footer p {
     font-weight: bold;
 }
 /* end footer */
+
+
+
+
+/* phone css  */
+
+@media only screen {
+    #about-name {
+        text-align: center;
+    }
+
+    #bio {
+        margin: 0 3rem;
+    }
+
+    #wreaths-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #wreaths-container img {
+        padding: 0;
+    }
+
+    #contact-content {
+        margin: 0 2rem;
+    }
+}
