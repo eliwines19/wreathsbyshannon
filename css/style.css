@@ -1,0 +1,150 @@
+/* general styling */
+body {
+    margin: 0;
+}
+/* end general styling */
+
+/* navbar section\ */
+#navbar-container {
+    display: flex;
+    justify-content: stretch;
+    background-color: rgb(0,0,0);
+    transition: 0.5s ease;
+}
+
+#navbar-container a {
+    padding: 20px 30px;
+    transition: 0.3s ease;
+}
+
+#navbar-container h4 {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-container a:hover {
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+    border-right: 1px solid white;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* end navbar section */
+
+/* slideshow section */
+.slideshow-image {
+    text-align: center;
+    height: 500pt;
+    background-size: cover;
+}
+
+.slideshow-image h3 {
+    margin: 0;
+}
+
+.slideshow-content {
+    margin: auto;
+    opacity: 70%;
+    padding: 10px 0 2px 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    position: relative;
+    top: 200pt;
+}
+
+#slide1 {
+    background-image: url("../images/concert1.jpg");
+    display: block;
+}
+
+#slide2 {
+    background-image: url("../images/concert2.jpg");
+    display: none;
+}
+
+#slide3 {
+    background-image: url("../images/concert3.jpg");
+    display: none;
+}
+/* end slideshow section */
+
+/* contact section */
+#contact-section {
+    padding: 50pt 0;
+    text-align: center;
+}
+
+#contact-content {
+    margin: 20pt 200pt;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-info {
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+}
+
+#contact-info li {
+    padding: 5pt 0;
+}
+
+#contact-info span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#contact-form {
+    text-align: left;
+    border-radius: 0;
+}
+
+#contact-form input {
+    border: solid 1pt rgb(128, 128, 128);
+    padding: 10pt;
+    margin-bottom: 5pt;
+}
+
+#contact-message {
+    width: 100%;
+}
+
+#contact-submit {
+    padding: 10pt;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#contact-submit:hover {
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+/* end contact section */
+
+/* bottom image */
+#bottom-image {
+    background: url("../images/stage.jpg");
+    background-size: cover;
+    height: 500pt;
+    width: auto;
+}
+/* end bottom image */
+
+/* footer */
+footer {
+    padding: 20pt 0;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
+/* end footer */
