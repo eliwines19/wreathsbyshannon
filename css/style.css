@@ -244,6 +244,11 @@ footer p {
 /* phone css  */
 
 @media only screen and (max-width: 900px) {
+
+    #navbar {
+        width: 100%
+    }
+
     #navbar-container h4 {
         color: black;
     }
