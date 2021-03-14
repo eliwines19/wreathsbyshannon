@@ -152,6 +152,10 @@ body {
     margin-bottom: 0;
 }
 
+#pricing-info {
+    font-size: 2rem;
+}
+
 #wreaths-container {
     display: grid;
     grid-template-columns: auto auto auto;
